@@ -1,0 +1,19 @@
+{
+  "name": "ts-reflection-example",
+  "version": "1.0.0",
+  "description": "Exemplo de Reflection em TypeScript",
+  "scripts": {
+    "start:native": "npx ts-node 1-native-reflect.ts",
+    "start:metadata": "npx ts-node 2-metadata-reflect.ts",
+    "start:dev": "npx ts-node src/exercicio01/index.ts",
+    "dev": "npx ts-node src/exercicio01/index.ts"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
