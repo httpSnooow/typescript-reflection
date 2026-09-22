@@ -6,7 +6,8 @@
     "start:native": "npx ts-node 1-native-reflect.ts",
     "start:metadata": "npx ts-node 2-metadata-reflect.ts",
     "start:dev": "npx ts-node src/exercicio01/index.ts",
-    "dev": "npx ts-node src/exercicio01/index.ts"
+    "dev": "npx ts-node src/exercicio01/index.ts",
+    "aula03:anotacoes": "npx ts-node src/exercicio02/teste/TesteAnotacoes.ts"
   },
   "dependencies": {
     "reflect-metadata": "^0.2.2"
